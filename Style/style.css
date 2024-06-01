@@ -377,6 +377,29 @@ section{
         display: block;
     }
 
+    .navbar-mobile{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        background: #fff;
+        width: 100%;
+        line-height: 3.2rem;
+        padding-bottom: 1rem;
+        left: 0;
+        padding-left: 2rem;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .navbar a{
+        padding: 0;
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
     .home{
         flex-direction: column;
     }
