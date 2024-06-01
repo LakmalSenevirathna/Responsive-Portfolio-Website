@@ -1,8 +1,16 @@
-/* TOGGLE NAVBAR */
+
 
 $(document).ready(function() {
+
+    /* TOGGLE NAVBAR */
     $('#menu-icon').click(function() {
         $('.navbar').toggleClass('navbar-mobile');
+    });
+
+    /* NAVBAR ACTIVE LINK */
+    $('.navbar a').click(function() {
+        $('.navbar a.active').removeClass('active');
+        $(this).addClass('active');
     });
 
 });

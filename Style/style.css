@@ -49,6 +49,10 @@ section{
     color: black;
 }
 
+.navbar a.active{
+    color: #00a91a;
+}
+
 #menu-icon{
     font-size: 3.6rem;
     display: none;
